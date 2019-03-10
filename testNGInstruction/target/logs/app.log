@@ -1,0 +1,21 @@
+19:14:06.396 DEBUG LoggingFile -Debug message logged
+19:14:06.399 ERROR LoggingFile -Debug message error
+19:14:06.399 FATAL LoggingFile -Debug message fatal
+19:22:06.693 ERROR LoggingFile -Debug message error
+19:22:06.696 FATAL LoggingFile -Debug message fatal
+19:22:06.696 INFO  LoggingFile -Debug message info
+19:23:42.299 ERROR log4jtutorial.LoggingFile -Debug message error
+19:23:42.302 FATAL log4jtutorial.LoggingFile -Debug message fatal
+19:23:42.302 INFO  log4jtutorial.LoggingFile -Debug message info
+19:23:52.079 DEBUG log4j.LoggingDemo -Debug message logged
+19:23:52.082 ERROR log4j.LoggingDemo -Debug message error
+19:23:52.082 FATAL log4j.LoggingDemo -Debug message fatal
+19:23:52.082 INFO  log4j.LoggingDemo -Debug message info
+19:38:39.972 INFO  log4jtutorial.TestNG_TestCase -浏览器最大化
+19:38:40.870 INFO  log4jtutorial.TestNG_TestCase -打开应用程序
+19:48:03.050 INFO  log4jtutorial.TestNG_TestCase -浏览器最大化
+19:48:03.885 INFO  log4jtutorial.TestNG_TestCase -打开应用程序
+19:49:00.704 INFO  log4jtutorial.TestNG_TestCase -浏览器最大化
+19:49:04.965 INFO  log4jtutorial.TestNG_TestCase -打开应用程序
+20:11:39.517 INFO  log4jtutorial.TestNG_TestCase -浏览器最大化
+20:11:41.222 INFO  log4jtutorial.TestNG_TestCase -打开应用程序

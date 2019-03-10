@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--
+用TestNG并行执行case
+1。如果没有依赖关系可以并行执行，如果存在依赖关系不建议并行执行或这等到存有依赖关系的case执行完了才并行执行
+2。或者两个case完全一样，但是设置不一样也可以并行执行
+parallel 并行跑 可以test可以classes等
+thread-count=线成数 默认为5
+-->
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+    <test name=" Test1 ">
+        <classes>
+          <class name="testclasses.TestNG_Parallel1"></class>
+        </classes>
+    </test>
+    <test name=" Test2 ">
+        <classes>
+            <class name="testclasses.TestNG_Parallel2"></class>
+        </classes>
+    </test>
+</suite>

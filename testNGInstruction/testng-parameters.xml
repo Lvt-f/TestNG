@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--
+根据key-value的方法去查找
+注意：这里传入的数值必须是字符串
+-->
+<suite name="Parameters TestSuite">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="mac"></parameter>
+    <parameter name="response" value="201,2000"></parameter>
+    <test name="Test 1">
+        <classes>
+            <class name="imooctest.TestNG_Parameters"/>
+        </classes>
+    </test>
+</suite>

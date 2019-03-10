@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression TestSuite">
+    <test name="GroupsDemo">
+        <!--
+        gruops可以添加多个组
+        -->
+        <groups>
+            <define name="all">
+                <include name="bick"></include>
+                <include name="suv"></include>
+                <include name="sedan"></include>
+            </define>
+            <define name="nobick">
+
+                <include name="suv"></include>
+                <include name="sedan"></include>
+            </define>
+            <run>
+                <!--
+                name中的名字必须是代码中实现的或者是define中定义的
+
+                -->
+                <include name="all"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="imooctest.TestNG_Grouping"></class>
+        </classes>
+    </test>
+</suite>

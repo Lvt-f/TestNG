@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Preserve Enable TestSuite">
+
+    <!--
+    preserve-order="false"：用来控制<test>里面所有<classes>的执行顺序。
+
+    enabled="false":不执行此test方法
+
+    -->
+   <test name="Test 1" preserve-order="false">
+       <classes>
+          <class name="imooctest.TestNG_Preserve2"/>
+          <class name="imooctest.TestNG_Preserve1"/>
+       </classes>
+   </test>
+    <test name="Test 2" enabled="false">
+        <classes>
+            <class name="imooctest.TestNG_Preserve2"/>
+            <class name="imooctest.TestNG_Preserve1"/>
+        </classes>
+    </test>
+</suite>
